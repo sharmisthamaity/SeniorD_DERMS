@@ -1,0 +1,34 @@
+Dependencies for Project 'can', Target 'can': (DO NOT MODIFY !)
+F (.\can.c)(0x58A0BC87)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I "C:\Program Files (x86)\Keil\ARM\RV31\INC"-I "C:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "C:\Program Files (x86)\Keil\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_TM4C123_RB1-o .\rvmdk\can.o --omf_browse .\rvmdk\can.crf --depend .\rvmdk\can.d)
+I (C:\Program Files (x86)\Keil\ARM\ARMCC\include\stdbool.h)(0x51C87C24)
+I (C:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+I (inc/hw_i2c.h)(0x5884F714)
+I (inc/hw_ints.h)(0x5884F714)
+I (inc/hw_memmap.h)(0x5884F714)
+I (inc/hw_types.h)(0x5884F714)
+I (driverlib/gpio.h)(0x5884F6CB)
+I (driverlib/i2c.h)(0x5884F6CB)
+I (driverlib/interrupt.h)(0x5884F6CB)
+I (driverlib/pin_map.h)(0x5884F6CB)
+I (driverlib/sysctl.h)(0x5884F6CB)
+I (driverlib/uart.h)(0x5884F6CB)
+F (..\drivers\cfal96x64x16.c)(0x00000000)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I "C:\Program Files (x86)\Keil\ARM\RV31\INC"-I "C:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "C:\Program Files (x86)\Keil\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_TM4C123_RB1-o .\rvmdk\cfal96x64x16.o --omf_browse .\rvmdk\cfal96x64x16.crf --depend .\rvmdk\cfal96x64x16.d)
+F (.\startup_rvmdk.S)(0x589D25E3)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Program Files (x86)\Keil\ARM\RV31\INC"-I "C:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "C:\Program Files (x86)\Keil\ARM\Inc\Luminary"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (..\..\..\..\utils\uartstdio.c)(0x00000000)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.. -I..\..\..\.. --c99-I "C:\Program Files (x86)\Keil\ARM\RV31\INC"-I "C:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "C:\Program Files (x86)\Keil\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PGE -DTARGET_IS_TM4C123_RB1-o .\rvmdk\uartstdio.o --omf_browse .\rvmdk\uartstdio.crf --depend .\rvmdk\uartstdio.d)
+I (C:\Program Files (x86)\Keil\ARM\ARMCC\include\stdbool.h)(0x51C87C24)
+I (C:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+I (C:\Program Files (x86)\Keil\ARM\ARMCC\include\stdarg.h)(0x51C87C24)
+I (..\..\..\..\inc/hw_ints.h)(0x00000000)
+I (..\..\..\..\inc/hw_memmap.h)(0x00000000)
+I (..\..\..\..\inc/hw_types.h)(0x00000000)
+I (..\..\..\..\inc/hw_uart.h)(0x00000000)
+I (..\..\..\..\driverlib/debug.h)(0x00000000)
+I (..\..\..\..\driverlib/interrupt.h)(0x00000000)
+I (..\..\..\..\driverlib/rom.h)(0x00000000)
+I (..\..\..\..\driverlib/rom_map.h)(0x00000000)
+I (..\..\..\..\driverlib/sysctl.h)(0x00000000)
+I (..\..\..\..\driverlib/uart.h)(0x00000000)
+I (..\..\..\..\utils/uartstdio.h)(0x00000000)
+F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x00000000)()
+F (..\..\..\..\grlib\rvmdk\grlib.lib)(0x00000000)()
+F (.\readme.txt)(0x5884F6CD)()
