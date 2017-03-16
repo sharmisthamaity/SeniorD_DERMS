@@ -255,9 +255,23 @@ main(void){
 				{
 				}
 //send data to master
-				I2CSlaveDataPut(I2C0_BASE, data_storage);
-
+				I2CSlaveDataPut(I2C0_BASE, 'j');
+				//I2CSlaveDataPut(I2C0_BASE, data_storage);
+uint8_t d = data_storage & 0xFF;
+				
 	while(1)
 	{
+		/*	if ((I2CSlaveStatus(I2C0_BASE) && I2C_SLAVE_ACT_RREQ)){
+				data_storage = I2CSlaveDataGet(I2C0_BASE);
+			}
+		else if (I2CSlaveStatus(I2C0_BASE) && I2C_SLAVE_ACT_TREQ)
+		{
+				I2CSlaveDataPut(I2C0_BASE, 'd');
+		}*/
+	}
+	{
+		
+		
+		
 	}
 }

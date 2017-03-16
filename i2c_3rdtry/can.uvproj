@@ -144,7 +144,7 @@
             <UsePdscDebugDescription>1</UsePdscDebugDescription>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>3</TargetSelection>
+          <TargetSelection>4</TargetSelection>
           <SimDlls>
             <CpuDll></CpuDll>
             <CpuDllArguments></CpuDllArguments>
@@ -411,19 +411,9 @@
               <FilePath>.\can.c</FilePath>
             </File>
             <File>
-              <FileName>cfal96x64x16.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\drivers\cfal96x64x16.c</FilePath>
-            </File>
-            <File>
               <FileName>startup_rvmdk.S</FileName>
               <FileType>2</FileType>
               <FilePath>.\startup_rvmdk.S</FilePath>
-            </File>
-            <File>
-              <FileName>uartstdio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\utils\uartstdio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -433,12 +423,12 @@
             <File>
               <FileName>driverlib.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>..\..\..\..\driverlib\rvmdk\driverlib.lib</FilePath>
+              <FilePath>.\driverlib\rvmdk\driverlib.lib</FilePath>
             </File>
             <File>
               <FileName>grlib.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>..\..\..\..\grlib\rvmdk\grlib.lib</FilePath>
+              <FilePath>.\rvmdk\grlib.lib</FilePath>
             </File>
           </Files>
         </Group>

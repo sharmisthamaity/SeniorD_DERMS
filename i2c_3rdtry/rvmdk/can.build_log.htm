@@ -3,10 +3,34 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\Users\AcerPC\Desktop\Spring 2017\EE 464H Senior Design\Codes\SeniorD_DERMS\i2c_3rdtry\can.uvproj
-Project File Date:  02/09/2017
+C:\Users\Jessica\git\seniordesign\SeniorD_DERMS\i2c_3rdtry\can.uvproj
+Project File Date:  02/15/2017
 
 <h2>Output:</h2>
+Build target 'can'
+compiling can.c...
+can.c(116): warning:  #177-D: variable "ui32DataTx" was declared but never referenced
+        uint32_t ui32DataTx;
+can.c(260): warning:  #177-D: variable "d" was declared but never referenced
+  uint8_t d = data_storage & 0xFF;
+can.c(73): warning:  #177-D: variable "throwaway" was declared but never referenced
+  static uint32_t throwaway=0x88;
+can.c(81): warning:  #177-D: variable "g_bIntFlag" was declared but never referenced
+  static bool g_bIntFlag = false;
+can.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=1796 RO-data=560 RW-data=4 ZI-data=516  
+After Build - User command #1: fromelf --bin --output .\rvmdk\can.bin .\rvmdk\can.axf
+".\rvmdk\can.axf" - 0 Error(s), 4 Warning(s).
+Load "C:\\Users\\Jessica\\git\\seniordesign\\SeniorD_DERMS\\i2c_3rdtry\\rvmdk\\can.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
 </pre>
 </body>
 </html>
+p.h"
+drivers\cfal96x64x16.c: 0 warnings, 1 error
+".\rvmdk\can.axf" - 4 Error(s), 3 Warning(s).
+Target not created
